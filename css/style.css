@@ -19,20 +19,40 @@
   header {
     background-color: grey;
     width: 100vw;
+display: flex;
+flex-direction: row;
+        /* width: 100vw; */
+/* padding-bottom: 2vh; */
+justify-content: space-between;
   }
   nav {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100vw;
-padding-bottom: 2vh;  }
+    
+    
+  }
   
   ul {
     display: flex;
-    justify-content: space-between;
-    width: 70vw;
-    align-items: center;
+    justify-content: right;
+/* max-width: fit-content;    */
+ align-items: center;
   }
-  
+
+  nav > div  {
+    display: flex;
+    justify-content: space-between;
+    max-width: fit-content;   
+     align-items: center;
+    
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+    font-style: italic;
+  }
+
+
   ul > li {
     padding: 5px;
   }
