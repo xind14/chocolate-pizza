@@ -1,64 +1,52 @@
-
-
-
-  body {
-  
-    background: rgb(255, 252, 252);
-  }
-
-  a {
-    text-decoration: none;
-  }
-  
-  header {
-    background-color: grey;
-    width: 100vw;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-  }
-
-.header{
-   display: flex;
-    flex-direction: row;
-    align-items: center;
+body {
+  background: rgb(255, 252, 252);
 }
-  
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: grey;
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .socials ul {
   display: flex;
-    flex-direction: row;
-  
-} 
- 
- #cursive {
-   font-family: "brush script m7", Cursive;
- font-size: 2rem;
- }
- 
- 
- main {
-   margin-top: 3rem;
-    display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   padding-left: 100px;
- }
+  flex-direction: row;
+}
 
+#cursive {
+  font-family: "brush script m7", Cursive;
+  font-size: 2rem;
+}
 
- 
- 
- #columns {
+main {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 100px;
+}
+
+#columns {
   background-image: url("../img/list-bg.png");
-   font-size: large;
-   line-height: 1.75em;
-   padding: 2em;
- 
- }
- 
-
-
-
-
-
-
-
+  font-size: large;
+  line-height: 1.75em;
+  padding: 2em;
+} */
