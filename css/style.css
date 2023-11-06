@@ -1,52 +1,132 @@
+
+
+
 body {
+  display: flex;
+  flex-direction: column;
   background: rgb(255, 252, 252);
+  max-width: 900px;
+    margin: auto;
+      border: 4px solid black !important
 }
 
 a {
   text-decoration: none;
 }
 
+
 header {
-  background-color: grey;
-  /* width: 100vw; */
+display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+nav, nav ul {
+  display: flex; 
+  flex-direction: row-reverse;
+     gap: 5px;
+
+}
+
+.deck col-1 separator-top {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
+
 }
 
-nav {
+
+
+.card header {
   display: flex;
   flex-direction: row;
+  justify-content: baseline;
 }
 
+h1{
+  font-size: 3em;
+  font-weight: bold;
+}
 
-/* .header {
+figure {
+  text-align: center;
+  margin-top: 20px;
+}
+
+header div a {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+
+
 }
 
-.socials ul {
-  display: flex;
-  flex-direction: row;
-}
-
-#cursive {
-  font-family: "brush script m7", Cursive;
-  font-size: 2rem;
-}
-
-main {
-  margin-top: 3rem;
+.deckcol1.copy {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 100px;
+  gap: 30px;
+  margin-top: 20px;
 }
 
-#columns {
-  background-image: url("../img/list-bg.png");
-  font-size: large;
-  line-height: 1.75em;
-  padding: 2em;
-} */
+.copy p {
+  text-indent: 30px;
+line-height: 1.5em;
+
+}
+
+
+.deckcol-2 figure { 
+  position: relative;
+  display: flex;
+   border: 5px solid green !important;
+     object-fit: cover;
+
+}
+
+.recipe {
+  display: flex;
+flex-wrap: wrap;  
+justify-content: center;
+
+
+}
+
+.recipe li {
+  flex: 0 0 50%; 
+    text-align: left;
+    margin-bottom: 10px; 
+}
+
+
+.cardhorizontal-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.cardhorizontal-content.copy{
+  display: flex;
+  flex-direction: column;
+  padding-left: 2em;
+}
+
+
+
+footer {
+  text-align: center;
+  background-color: #F7F7F7;
+  color: grey;
+  padding: 10px;
+}
+footer img {
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+
+
+
