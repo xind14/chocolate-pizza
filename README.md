@@ -1,6 +1,6 @@
 # Lab 10a 
 
- ## Chocolate Pizza
+## Chocolate Pizza
 
 ### Author: Xin Deng
 
